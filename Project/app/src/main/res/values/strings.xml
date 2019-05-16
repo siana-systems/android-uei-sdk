@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">UAPISampleApp</string>
+
+    <!-- Errors -->
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="no_data">No data</string>
+    <string name="no_devices">No connected devices</string>
+    <string name="no_services">Services NOT found. Trying to reconnect now.</string>
+    <string name="stopping_reconnection_tries">App can not connect to device</string>
+    <string name="no_characteristic">Characteristics NOT found. Trying to reconnect now to</string>
+    <string name="error_sending_data">Data can not be sent. Services or characteristics were not found yet</string>
+
+    <!-- Titles -->
+    <string name="title_central_pairing">Central device</string>
+    <string name="title_under_ucg">Data to send</string>
+    <string name="title_start_ota">OTA upgrade</string>
+    <string name="title_ota_confirm">Start OTA update</string>
+    <string name="title_select_remote_send">Select remote to send data to</string>
+    <string name="title_select_remote_read">Select remote to read data from</string>
+    <string name="title_error">Oops!</string>
+    <string name="title_notice">Hey!</string>
+    <string name="title_version">Version:</string>
+    <string name="title_ota_progress">OTA in progress</string>
+
+    <!-- Buttons -->
+    <string name="go_pairing">Central Device Pairing</string>
+    <string name="go_ota_selection">Select OTA file</string>
+    <string name="send_under_ucg">Send under UCG</string>
+    <string name="send_button">Send</string>
+    <string name="start_button">Start</string>
+    <string name="cancel_button">Cancel</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_read">Read</string>
+    <string name="send_hex">Send hex</string>
+
+    <!-- Dialog items -->
+    <string name="dialog_title">String to send:</string>
+    <string name="dialog_hint">Type a string to send</string>
+
+    <!-- List items -->
+    <string name="label_device">Remote: </string>
+    <string name="label_state">State:</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connecting">Connecting</string>
+
+    <!-- UI messages -->
+    <string name="data_sent">Data sent!</string>
+    <string name="ota_completed">OTA upgrade is completed!</string>
+    <string name="ota_failed">OTA upgrade could not be completed</string>
+    <string name="already_updated">Your remote is already updated</string>
+    <string name="no_version">Version could not be checked</string>
+</resources>

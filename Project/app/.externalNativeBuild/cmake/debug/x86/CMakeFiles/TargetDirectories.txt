@@ -1,0 +1,3 @@
+/project/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/project/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/project/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/uapi-wrapper.dir

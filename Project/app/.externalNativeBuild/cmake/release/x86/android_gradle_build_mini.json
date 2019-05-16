@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/project/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/opt/android-sdk-linux/cmake/3.6.4111459/bin/cmake --build /project/app/.externalNativeBuild/cmake/release/x86 --target clean"
+  ],
+  "libraries": {
+    "uapi-wrapper-Release-x86": {
+      "artifactName": "uapi-wrapper",
+      "buildCommand": "/opt/android-sdk-linux/cmake/3.6.4111459/bin/cmake --build /project/app/.externalNativeBuild/cmake/release/x86 --target uapi-wrapper",
+      "abi": "x86",
+      "output": "/project/app/build/intermediates/cmake/release/obj/x86/libuapi-wrapper.so"
+    },
+    "uapi-lib-Release-x86": {
+      "artifactName": "uapi-lib",
+      "abi": "x86",
+      "output": "/project/app/src/main/jniLibs/x86/libUAPILib.so"
+    }
+  }
+}

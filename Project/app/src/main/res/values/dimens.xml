@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Progress view -->
+    <dimen name="indeterminate_progress_container_width">56dp</dimen>
+    <dimen name="indeterminate_progress_container_min_width">56dp</dimen>
+    <dimen name="indeterminate_progress_size">32dp</dimen>
+
+    <!-- Text padding for list items -->
+    <dimen name="device_text_marginStart">10dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="device_title">24sp</dimen>
+    <dimen name="dialog_title">18sp</dimen>
+    <dimen name="device_medium_title">14sp</dimen>
+    <dimen name="device_subtitle">12sp</dimen>
+
+    <!-- File item sizes -->
+    <dimen name="file_name">50dp</dimen>
+</resources>

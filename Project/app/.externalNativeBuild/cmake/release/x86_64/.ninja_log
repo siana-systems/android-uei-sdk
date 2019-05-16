@@ -1,0 +1,3 @@
+# ninja log v5
+0	100	1557960448	CMakeFiles/uapi-wrapper.dir/src/main/cpp/uapiWrapper.c.o	e26427bc10d63a9e
+102	117	1557960448	../../../../build/intermediates/cmake/release/obj/x86_64/libuapi-wrapper.so	33c2889051042567

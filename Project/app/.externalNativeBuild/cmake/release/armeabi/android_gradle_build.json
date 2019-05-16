@@ -1,0 +1,49 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/toptier/Desktop/UAPILib-19:07:2018/AppsWithNewLib/Android/UAPISampleApp/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/toptier/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/toptier/Desktop/UAPILib-19:07:2018/AppsWithNewLib/Android/UAPISampleApp/app/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"libraries" : 
+	{
+		"uapi-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "uapi-lib",
+			"buildType" : "release",
+			"output" : "/Users/toptier/Desktop/UAPILib-19:07:2018/AppsWithNewLib/Android/UAPISampleApp/app/src/main/jniLibs/armeabi/libUAPILib.so",
+			"toolchain" : "13116214725430926044"
+		},
+		"uapi-wrapper-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "uapi-wrapper",
+			"buildCommand" : "/Users/toptier/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/toptier/Desktop/UAPILib-19:07:2018/AppsWithNewLib/Android/UAPISampleApp/app/.externalNativeBuild/cmake/release/armeabi --target uapi-wrapper",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/toptier/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/toptier/Library/Android/sdk/ndk-bundle/sysroot -Duapi_wrapper_EXPORTS  -isystem /Users/toptier/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/toptier/Desktop/UAPILib-19:07:2018/AppsWithNewLib/Android/UAPISampleApp/app/src/main/cpp/uapiWrapper.c",
+					"workingDirectory" : "/Users/toptier/Desktop/UAPILib-19:07:2018/AppsWithNewLib/Android/UAPISampleApp/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/toptier/Desktop/UAPILib-19:07:2018/AppsWithNewLib/Android/UAPISampleApp/app/build/intermediates/cmake/release/obj/armeabi/libuapi-wrapper.so",
+			"toolchain" : "13116214725430926044"
+		}
+	},
+	"toolchains" : 
+	{
+		"13116214725430926044" : 
+		{
+			"cCompilerExecutable" : "/Users/toptier/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/toptier/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

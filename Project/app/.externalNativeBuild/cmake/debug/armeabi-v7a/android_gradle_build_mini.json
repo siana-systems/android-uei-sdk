@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/project/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/opt/android-sdk-linux/cmake/3.6.4111459/bin/cmake --build /project/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "uapi-wrapper-Debug-armeabi-v7a": {
+      "artifactName": "uapi-wrapper",
+      "buildCommand": "/opt/android-sdk-linux/cmake/3.6.4111459/bin/cmake --build /project/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target uapi-wrapper",
+      "abi": "armeabi-v7a",
+      "output": "/project/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libuapi-wrapper.so"
+    },
+    "uapi-lib-Debug-armeabi-v7a": {
+      "artifactName": "uapi-lib",
+      "abi": "armeabi-v7a",
+      "output": "/project/app/src/main/jniLibs/armeabi-v7a/libUAPILib.so"
+    }
+  }
+}

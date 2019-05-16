@@ -1,0 +1,3 @@
+/project/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/project/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/project/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/uapi-wrapper.dir

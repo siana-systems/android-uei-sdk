@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/project/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/opt/android-sdk-linux/cmake/3.6.4111459/bin/cmake --build /project/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "uapi-lib-Debug-arm64-v8a": {
+      "artifactName": "uapi-lib",
+      "abi": "arm64-v8a",
+      "output": "/project/app/src/main/jniLibs/arm64-v8a/libUAPILib.so"
+    },
+    "uapi-wrapper-Debug-arm64-v8a": {
+      "artifactName": "uapi-wrapper",
+      "buildCommand": "/opt/android-sdk-linux/cmake/3.6.4111459/bin/cmake --build /project/app/.externalNativeBuild/cmake/debug/arm64-v8a --target uapi-wrapper",
+      "abi": "arm64-v8a",
+      "output": "/project/app/build/intermediates/cmake/debug/obj/arm64-v8a/libuapi-wrapper.so"
+    }
+  }
+}
