@@ -48,4 +48,4 @@ RUN /opt/tools/entrypoint.sh built-in
 #CMD /opt/tools/entrypoint.sh built-in
 
 RUN /opt/tools/custom-tasks.sh
-
+WORKDIR /project
