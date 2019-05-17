@@ -10,7 +10,7 @@ push:
 	docker push $(DUSER)/$(DNAME):$(DVER)
 
 pull:
-	docker pull $(DUSER)/$(DNAME):$(VER)
+	docker pull $(DUSER)/$(DNAME):$(DVER)
 
 run:
 	docker run -v $(CWD)/Project:/project -it $(DUSER)/$(DNAME):$(DVER)
